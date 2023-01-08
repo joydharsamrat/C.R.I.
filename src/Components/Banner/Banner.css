@@ -1,0 +1,48 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.trophy {
+    width: 33%;
+}
+
+.trophy>img {
+    width: 100%;
+}
+
+.details {
+    width: 67%;
+}
+
+.details>img {
+    width: 100%;
+}
+
+.header {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        display: block;
+        margin: 0 20px;
+    }
+
+    .trophy {
+        width: 100%;
+    }
+
+    .trophy>img {
+        width: 100%;
+    }
+
+    .details {
+        width: 100%;
+    }
+
+    .details>img {
+        width: 100%;
+    }
+}
